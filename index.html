@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ex001</title>
+</head>
+<body>
+    <h1>Clique F12 e veja o resultado no console.</h1>
+    <script>
+        //Soma
+        let nome = prompt("Olá, digite seu nome: ")
+        let num1 = Number (prompt("Digite o primeiro número: "))
+        let num2 = Number (prompt("Digite o segundo número: "))
+        let resultado = num1 + num2
+
+        console.log(`Olá ${nome}, bem vindo a sua calculadora pessoal, a soma de ${num1} + ${num2} é igual a ${resultado} `)
+
+        window.alert(`Olá ${nome}, bem vindo a sua calculadora pessoal, a soma de ${num1} + ${num2} é igual a ${resultado} `)
+        //====
+
+        //Subtração
+        num3 = Number (prompt("Agora vamos fazer uma subtração, digite outro número: "))
+        num4 = Number (prompt("Digite o segundo número: "))
+        resultado2 = num3 - num4
+
+        console.log(`Olá ${nome}, a subtração de ${num3} - ${num4} é igual a ${resultado2} `)
+
+        window.alert(`Olá ${nome}, a subtração de ${num3} - ${num4} é igual a ${resultado2} `)
+        //=========
+
+        //Multiplicação
+        num5 = Number (prompt("Agora vamos fazer uma multiplicação, digite outro número: "))
+        num6 = Number (prompt("Digite o segundo número: "))
+        resultado3 = num5 * num6
+
+        console.log(`Olá ${nome}, a multiplicação de ${num5} x ${num6} é igual a ${resultado3} `)
+
+        window.alert(`Olá ${nome}, a multiplição de ${num5} x ${num6} é igual a ${resultado3} `)
+        //=============
+
+        //Divisão 
+        num7 = Number (prompt("Agora vamos fazer uma divisão, digite outro número: "))
+        num8 = Number (prompt("Digite o segundo número: "))
+        resultado4 = num7 / num8
+
+        console.log(`Olá ${nome}, a subtração de ${num7} / ${num8} é igual a ${resultado2} `)
+
+        window.alert(`Olá ${nome}, a divisão de ${num7} / ${num8} é igual a ${resultado4} `)
+    </script>
+</body>
+</html>
